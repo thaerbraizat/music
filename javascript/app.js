@@ -10,4 +10,35 @@ if(FavColor === "red"){
         alert("welcome")
     }
 
+    var image ="";
+    console.log(image);
+    var imagtype = prompt('what is your favorite type of music?','jazz,pop,rock' );
+    var imgNumber = prompt( 'How many pictures do you want to see ?');
+    
+    while (imagtype != 'jazz' && imagtype != 'pop' && imagtype != 'rock') {
+          imagtype = prompt('do it again','jazz,pop,rock')
+        
+    }
+  
+for(var i = 1 ; i<=imgNumber ;i++){
+ if(imagtype == 'jazz') {
+     image = image + '<img src="https://image.freepik.com/free-vector/hand-drawn-internation-jazz-day-concept_23-2148470433.jpg">' 
+     console.log(image);
+}else if (imagtype == 'pop') {
+    image = image +  '<img src="https://samplecraze.com/wp-content/uploads/2020/06/pop2-3.jpg">'
+    console.log
+}else if (imagtype == 'rock') {
+    image = image + '<img src="https://i.ytimg.com/vi/cMYGZ0CqKsc/sddefault.jpg">'
+}else {
+    alert(wlc)
+}
+}
+document.write(image);
+    
+         
+  
 
+   
+    
+      
+     
