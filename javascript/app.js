@@ -1,5 +1,5 @@
+function colorFav (){
 var FavColor = prompt('what is your favorite color?','red,blue,green')
-
 if(FavColor === "red"){
     document.write('<h3 style="background-color: red;">' + FavColor + '</h3>')
 }else if(FavColor === "blue"){
@@ -9,6 +9,8 @@ if(FavColor === "red"){
     }else{
         alert("welcome")
     }
+}
+colorFav();
 
     var image ="";
     console.log(image);
@@ -19,7 +21,7 @@ if(FavColor === "red"){
           imagtype = prompt('do it again','jazz,pop,rock')
         
     }
-  
+ 
 for(var i = 1 ; i<=imgNumber ;i++){
  if(imagtype == 'jazz') {
      image = image + '<img src="https://image.freepik.com/free-vector/hand-drawn-internation-jazz-day-concept_23-2148470433.jpg">' 
@@ -33,6 +35,7 @@ for(var i = 1 ; i<=imgNumber ;i++){
     alert(wlc)
 }
 }
+
 document.write(image);
     
          
